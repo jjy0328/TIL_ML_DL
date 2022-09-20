@@ -12,7 +12,7 @@
 
 1. 분산 : 평균을 뺀 값에 모두 제곱한 다음 평균을 냄
 2. 표준편차 : 분산의 제곱근 -> 데이터가 분산된 정도
-3. 표준점수 : 각 데이터가 원점에서 몇 표준편차만큼 떨어져있는지 나타내는 값
-            `mean = np.mean(train_input, axis=0)`
-            `std = np.std(train_input, axis=0)`
-            `train_scaled = (train_input - mean)/std`
+3. 표준점수 : 각 데이터가 원점에서 몇 표준편차만큼 떨어져있는지 나타내는 값 <br>
+            `mean = np.mean(train_input, axis=0)` <br>
+            `std = np.std(train_input, axis=0)` <br>
+            `train_scaled = (train_input - mean)/std` <br>
